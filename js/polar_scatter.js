@@ -25,6 +25,13 @@ for (var angle = 0; angle < 360; angle+=30){
 		.style("stroke","black")
 		.style("stroke-width","1");
 
+	svg.append("text")
+		.text(angle + "°")
+		.attr("x",20)
+		.attr("y",20)
+		.attr("transform", "translate(700,370) rotate(-" + angle + " -300 30)")
+		.attr('fill', '#000');
+
 }
 
 points.forEach(function(point){
