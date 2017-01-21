@@ -4,12 +4,12 @@
 
 var svg = d3.select("#plot")
 	.append("svg")
-	.attr("width", 600)
-	.attr("height", 600);
+	.attr("width", 900)
+	.attr("height", 900);
 
-var centerX = 300;
-var centerY = 300;
-var radius = 300;
+var centerX = 400;
+var centerY = 400;
+var radius = 400;
 
 var points = [[100,30],[100,40]]
 
