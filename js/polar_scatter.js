@@ -51,7 +51,7 @@ for (var angle = 0; angle < 360; angle+=30){
 		.text(angle + "°")
 		.attr("x",20)
 		.attr("y",20)
-		.attr("transform", "translate(700,370) rotate(-" + angle + " -300 30)")
+		.attr("transform", "translate(700,370) rotate(-" + angle + " -300 30)")//rotate(-" + angle + " -300 30)
 		.attr('fill', '#535154');
 
 }
